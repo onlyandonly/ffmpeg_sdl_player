@@ -4,4 +4,4 @@
 
 开发环境：win10,VS2019,DEBUG,x64,FFmpeg4.3.2,SDL2.0.14
 
-笔记地址：http://dranger.com/ffmpeg/tutorial01.html
+笔记地址：https://cloud.tencent.com/developer/article/1809240
