@@ -3,19 +3,8 @@
 #include <fstream>
 #include <string>
 
-extern "C" {
-#include <libavformat/avformat.h>
-#include <libavcodec/avcodec.h>
-#include <libswscale/swscale.h>
-#include <libavutil/imgutils.h>
-#include <SDL.h>
-#include <SDL_thread.h>
-}
+#include "common.h"
 
-using namespace std;
-
-const string kBaseDir = "../../../assets/";
-const string kMediaFile = "../../../assets/destiny.mp4";
 static void saveFrame(uint8_t** data, int* linesizes, int width, int height, int count);
 
 /*

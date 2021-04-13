@@ -1,16 +1,7 @@
 #include "tutorial02.h"
 #include <iostream>
 
-extern "C" {
-#include <libavformat/avformat.h>
-#include <libavcodec/avcodec.h>
-#include <SDL.h>
-#include <SDL_thread.h>
-}
-
-using namespace std;
-
-const string kMediaFile = "../../../assets/green.mp4";
+#include "common.h"
 
 /*
 * ´óÖÂÁ÷³Ì£º

@@ -25,7 +25,7 @@ using namespace std;
 int main(int argc, char* argv[]) {
 
 	//解码视频数据，转换为RGB，保存至PPM文件
-	tutorial01();
+	//tutorial01();
 
 	//解码视频数据，SDL渲染播放
 	//tutorial02();
@@ -43,7 +43,7 @@ int main(int argc, char* argv[]) {
 	//tutorial06();
 
 	//进度定位
-	//tutorial07();
+	tutorial07();
 
 	return 0;
 }

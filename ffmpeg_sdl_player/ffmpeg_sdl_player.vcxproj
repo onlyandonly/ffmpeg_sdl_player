@@ -170,6 +170,7 @@
     <ClInclude Include="tutorial05.h" />
     <ClInclude Include="tutorial06.h" />
     <ClInclude Include="tutorial07.h" />
+    <ClInclude Include="common.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
